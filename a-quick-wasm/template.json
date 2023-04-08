@@ -1,0 +1,9 @@
+{
+    "name": "wasm by rust",
+    "description": "build wasm by rust and load it JS module",
+    "exclude": [
+        "**/target",
+        "**/.git",
+        "**/Cargo.lock"
+    ]
+}
