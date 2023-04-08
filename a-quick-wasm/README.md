@@ -87,4 +87,10 @@ cargo install wasm-gc
 ```
 These steps have been tested in windows with chrome. They should work in Linux and other browsers.
 
+Use this project as template
+```shell
+cargo install cargo-generate
+cargo generate --git https://github.com/jooter/rust-exercises a-quick-wasm
+```
+
 Thanks for the wonderful community of wasm with rusty.

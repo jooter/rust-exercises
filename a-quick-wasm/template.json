@@ -2,6 +2,8 @@
     "name": "wasm by rust",
     "description": "build wasm by rust and load it JS module",
     "exclude": [
+        "README.md",
+        "favicon.ico",
         "**/target",
         "**/.git",
         "**/Cargo.lock"
