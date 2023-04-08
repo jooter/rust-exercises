@@ -1,0 +1,14 @@
+[alias]
+
+a1  = "make asm gc"
+
+make  = "run --bin make"
+
+asm  = "build --target wasm32-unknown-unknown --release"
+
+env  = "run --bin env"
+copy  = "run --bin copy"
+gc = "run --bin run wasm-gc ./target/wasm32-unknown-unknown/release/rs_wasm_02.wasm ./static/main.wasm"
+web  = "run --bin run python -m http.server -d static"
+
+
