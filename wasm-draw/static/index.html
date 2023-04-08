@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Title</title>
+  </head>
+  <body>
+    <input id="input01" value="15"></input>
+    <button onclick="draw()"> Draw </button>
+    <canvas id="canvas01" width="600" height="400" 
+    style="border:1px solid #000000;"></canvas>
+    <script type="module">
+      import { asm } from "./main.js";
+      console.log(asm.add_one(4241));
+      console.log(asm.get_points());
+      
+    </script>
+  </body>
+</html>
